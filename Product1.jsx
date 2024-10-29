@@ -1,5 +1,5 @@
-import React from 'react';
-import product1 from '../assets/product1.jpg';  // Replace with your actual image paths
+
+import product1 from '../assets/product1.jpg';  
 import product2 from '../assets/product2.jpg';
 import product3 from '../assets/product3.jpg';
 import product4 from '../assets/product4.jpg';
@@ -49,8 +49,8 @@ const ProductShowcase = () => {
           ))}
         </div>
         
-        <div className="text-center mt-12">
-          <button className="px-6 py-3 bg-red-500 text-white font-mono uppercase rounded-md hover:bg-gray-300">
+        <div className="text-center mt-12 ">
+          <button className="relative bottom-2 font-medium border-red-600 bg-transparent py-2.5 px-5 uppercase text-red-600 transition-colors: before:absolute before:left-0 before:top-0 before:z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-red-600 before:transition before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
             Shop Now
           </button>
         </div>

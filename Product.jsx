@@ -1,5 +1,5 @@
-import React from 'react';
-import p1 from '../assets/p1.jpg'; // Import the images
+
+import p1 from '../assets/p1.jpg'; 
 import p2 from '../assets/p2.jpg';
 import p3 from '../assets/p3.jpg';
 
@@ -7,12 +7,12 @@ const ProductSection = () => {
   const products = [
     {
       image: p1,
-      title: 'EAGLE 2',
+      title: ' BEATS EAGLE 2',
       buttonText: 'SHOP NOW',
     },
     {
       image: p2,
-      title: 'BLACKTIP TI 41MM',
+      title: 'BEATS TI 41MM',
       buttonText: 'SHOP NOW',
     },
     {
@@ -52,7 +52,7 @@ const ProductSection = () => {
               <h2 className="text-white text-2xl font-semibold mb-4 font-mono">
                 {product.title}
               </h2>
-              <button className="bg-red-500 text-black py-2 px-6 rounded hover:bg-gray-300 transition-colors duration-300 font-mono">
+              <button className="bg-red-500 text-black py-2 px-6 rounded hover:bg-gray-300  duration-300 font-mono transition-colors before">
                 {product.buttonText}
               </button>
             </div>
